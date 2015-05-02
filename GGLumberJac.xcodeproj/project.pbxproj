@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6326B6A01AF117A900A147F6 /* GGLumberLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6326B69F1AF117A900A147F6 /* GGLumberLog.m */; };
+		6316FD591AF4BFFD00C25F9D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6316FD581AF4BFFD00C25F9D /* README.md */; };
+		6316FD5C1AF4C50900C25F9D /* GGLumberLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6316FD5B1AF4C50900C25F9D /* GGLumberLog.m */; };
 		63564F931AF115EB0004DFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F921AF115EB0004DFAC /* main.m */; };
 		63564F961AF115EB0004DFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F951AF115EB0004DFAC /* AppDelegate.m */; };
 		63564F991AF115EB0004DFAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F981AF115EB0004DFAC /* ViewController.m */; };
@@ -30,8 +31,9 @@
 
 /* Begin PBXFileReference section */
 		4D84184BF0A34BC8966FC2AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		6326B69E1AF117A900A147F6 /* GGLumberLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLumberLog.h; sourceTree = "<group>"; };
-		6326B69F1AF117A900A147F6 /* GGLumberLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGLumberLog.m; sourceTree = "<group>"; };
+		6316FD581AF4BFFD00C25F9D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6316FD5A1AF4C50900C25F9D /* GGLumberLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLumberLog.h; sourceTree = SOURCE_ROOT; };
+		6316FD5B1AF4C50900C25F9D /* GGLumberLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGLumberLog.m; sourceTree = SOURCE_ROOT; };
 		63564F8D1AF115EB0004DFAC /* GGLumberJac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGLumberJac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63564F911AF115EB0004DFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63564F921AF115EB0004DFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,8 +81,8 @@
 		6326B6A11AF117AD00A147F6 /* Log */ = {
 			isa = PBXGroup;
 			children = (
-				6326B69E1AF117A900A147F6 /* GGLumberLog.h */,
-				6326B69F1AF117A900A147F6 /* GGLumberLog.m */,
+				6316FD5A1AF4C50900C25F9D /* GGLumberLog.h */,
+				6316FD5B1AF4C50900C25F9D /* GGLumberLog.m */,
 			);
 			name = Log;
 			sourceTree = "<group>";
@@ -88,6 +90,7 @@
 		63564F841AF115EB0004DFAC = {
 			isa = PBXGroup;
 			children = (
+				6316FD581AF4BFFD00C25F9D /* README.md */,
 				63564F8F1AF115EB0004DFAC /* GGLumberJac */,
 				63564FA91AF115EB0004DFAC /* GGLumberJacTests */,
 				63564F8E1AF115EB0004DFAC /* Products */,
@@ -291,10 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6316FD5C1AF4C50900C25F9D /* GGLumberLog.m in Sources */,
 				63564F991AF115EB0004DFAC /* ViewController.m in Sources */,
 				63564F961AF115EB0004DFAC /* AppDelegate.m in Sources */,
+				6316FD591AF4BFFD00C25F9D /* README.md in Sources */,
 				63564F931AF115EB0004DFAC /* main.m in Sources */,
-				6326B6A01AF117A900A147F6 /* GGLumberLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
