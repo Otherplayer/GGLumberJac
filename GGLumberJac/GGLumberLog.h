@@ -36,4 +36,5 @@
 
 - (void)recordLog;
 - (void)redirectLogfile2ShareOfiTunes;
+
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6326B6A01AF117A900A147F6 /* GGLumberLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6326B69F1AF117A900A147F6 /* GGLumberLog.m */; };
 		63564F931AF115EB0004DFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F921AF115EB0004DFAC /* main.m */; };
 		63564F961AF115EB0004DFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F951AF115EB0004DFAC /* AppDelegate.m */; };
 		63564F991AF115EB0004DFAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564F981AF115EB0004DFAC /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		63564F9E1AF115EB0004DFAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63564F9D1AF115EB0004DFAC /* Images.xcassets */; };
 		63564FA11AF115EB0004DFAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63564F9F1AF115EB0004DFAC /* LaunchScreen.xib */; };
 		63564FAD1AF115EB0004DFAC /* GGLumberJacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63564FAC1AF115EB0004DFAC /* GGLumberJacTests.m */; };
+		9AA427B8F0764E08B714433F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4861136E502D33C5ABEB309 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D84184BF0A34BC8966FC2AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6326B69E1AF117A900A147F6 /* GGLumberLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLumberLog.h; sourceTree = "<group>"; };
+		6326B69F1AF117A900A147F6 /* GGLumberLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGLumberLog.m; sourceTree = "<group>"; };
 		63564F8D1AF115EB0004DFAC /* GGLumberJac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGLumberJac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63564F911AF115EB0004DFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63564F921AF115EB0004DFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,8 @@
 		63564FA61AF115EB0004DFAC /* GGLumberJacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGLumberJacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63564FAB1AF115EB0004DFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63564FAC1AF115EB0004DFAC /* GGLumberJacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGLumberJacTests.m; sourceTree = "<group>"; };
+		752DDECC83A49E70EDC315DA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D4861136E502D33C5ABEB309 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA427B8F0764E08B714433F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		329C25FF1B71F04105683948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4861136E502D33C5ABEB309 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6326B6A11AF117AD00A147F6 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				6326B69E1AF117A900A147F6 /* GGLumberLog.h */,
+				6326B69F1AF117A900A147F6 /* GGLumberLog.m */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
 		63564F841AF115EB0004DFAC = {
 			isa = PBXGroup;
 			children = (
 				63564F8F1AF115EB0004DFAC /* GGLumberJac */,
 				63564FA91AF115EB0004DFAC /* GGLumberJacTests */,
 				63564F8E1AF115EB0004DFAC /* Products */,
+				64D8F8D9E8AA46B9409B3C3F /* Pods */,
+				329C25FF1B71F04105683948 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +108,7 @@
 		63564F8F1AF115EB0004DFAC /* GGLumberJac */ = {
 			isa = PBXGroup;
 			children = (
+				6326B6A11AF117AD00A147F6 /* Log */,
 				63564F941AF115EB0004DFAC /* AppDelegate.h */,
 				63564F951AF115EB0004DFAC /* AppDelegate.m */,
 				63564F971AF115EB0004DFAC /* ViewController.h */,
@@ -119,6 +147,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		64D8F8D9E8AA46B9409B3C3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				752DDECC83A49E70EDC315DA /* Pods.debug.xcconfig */,
+				4D84184BF0A34BC8966FC2AA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63564FB01AF115EB0004DFAC /* Build configuration list for PBXNativeTarget "GGLumberJac" */;
 			buildPhases = (
+				24118B203927167697955F0E /* Check Pods Manifest.lock */,
 				63564F891AF115EB0004DFAC /* Sources */,
 				63564F8A1AF115EB0004DFAC /* Frameworks */,
 				63564F8B1AF115EB0004DFAC /* Resources */,
+				F12D2A7D47D3D622889590E5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +253,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24118B203927167697955F0E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F12D2A7D47D3D622889590E5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63564F891AF115EB0004DFAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +294,7 @@
 				63564F991AF115EB0004DFAC /* ViewController.m in Sources */,
 				63564F961AF115EB0004DFAC /* AppDelegate.m in Sources */,
 				63564F931AF115EB0004DFAC /* main.m in Sources */,
+				6326B6A01AF117A900A147F6 /* GGLumberLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +420,7 @@
 		};
 		63564FB11AF115EB0004DFAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752DDECC83A49E70EDC315DA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGLumberJac/Info.plist;
@@ -357,6 +431,7 @@
 		};
 		63564FB21AF115EB0004DFAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D84184BF0A34BC8966FC2AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGLumberJac/Info.plist;
@@ -418,6 +493,7 @@
 				63564FB21AF115EB0004DFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63564FB31AF115EB0004DFAC /* Build configuration list for PBXNativeTarget "GGLumberJacTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +502,7 @@
 				63564FB51AF115EB0004DFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "GGLumberLog.h"
-
+#import <CocoaLumberjack.h>
 @interface GGLumberLog ()
 @property (strong, nonatomic) DDFileLogger *fileLogger;
 @end

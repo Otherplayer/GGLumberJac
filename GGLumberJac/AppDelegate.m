@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GGLumberLog.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //开始记录
+    [[GGLumberLog sharedInstance] recordLog];
     return YES;
 }
 
@@ -40,6 +43,10 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    
+    // 输出到iTunes共享文件
+    [[GGLumberLog sharedInstance] redirectLogfile2ShareOfiTunes];
+    
 }
 
 @end

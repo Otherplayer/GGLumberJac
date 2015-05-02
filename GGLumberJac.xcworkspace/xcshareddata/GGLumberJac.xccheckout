@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4DE8149E-6EAE-4225-8F33-A3A2C88E663F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GGLumberJac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9488B88C62894D50270A5502FDB6A395AB8E5756</key>
+		<string>github.com:Otherplayer/GGLumberJac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GGLumberJac.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9488B88C62894D50270A5502FDB6A395AB8E5756</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Otherplayer/GGLumberJac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9488B88C62894D50270A5502FDB6A395AB8E5756</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9488B88C62894D50270A5502FDB6A395AB8E5756</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GGLumberJac</string>
+		</dict>
+	</array>
+</dict>
+</plist>
