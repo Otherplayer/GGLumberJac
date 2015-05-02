@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "GGLumberJac"
   s.version      = "0.0.1"
-  s.summary      = "GGLumberJac inherit the GGLumberJac."
+  s.summary      = "GGLumberJac,a log record project!"
   s.description  = <<-DESC
                     GGLumberJac is a log record project!
                    DESC
