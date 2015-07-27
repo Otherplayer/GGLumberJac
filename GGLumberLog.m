@@ -7,12 +7,12 @@
 //
 
 #import "GGLumberLog.h"
-#import <CocoaLumberjack.h>
+
 @interface GGLumberLog ()
 @property (strong, nonatomic) DDFileLogger *fileLogger;
 @end
 
-//static const int ddLogLevel = DDLogLevelVerbose;// 定义日志级别
+
 
 @implementation GGLumberLog
 
@@ -90,11 +90,11 @@
     NSError *err = nil;
     [fileM copyItemAtPath:logOfSource toPath:targetPath error:&err];
     
-    //    if (err) {
-    //        DDLogInfo(@"copy失败：%@",err);
-    //    }else{
-    //        DDLogInfo(@"copy成功");
-    //    }
+    if (err) {
+        DDLogInfo(@"copy失败：%@",err);
+    }else{
+        DDLogInfo(@"copy成功");
+    }
 }
 
 

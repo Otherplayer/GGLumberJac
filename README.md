@@ -16,9 +16,11 @@
 
 ```objective-c
 // 开始记录
+// 在 didFinishLaunchingWithOptions 中添加
 [[GGLumberLog sharedInstance] recordLog];
 
 // 输出到iTunes共享文件
+// 在 applicationWillTerminate 中添加
 [[GGLumberLog sharedInstance] redirectLogfile2ShareOfiTunes];
 ```
 

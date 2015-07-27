@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9488B88C62894D50270A5502FDB6A395AB8E5756",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FA8726A04386A5EDE7F93DB41C8079BB6086EFD8" : 0,
+    "9488B88C62894D50270A5502FDB6A395AB8E5756" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4DE8149E-6EAE-4225-8F33-A3A2C88E663F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FA8726A04386A5EDE7F93DB41C8079BB6086EFD8" : "",
+    "9488B88C62894D50270A5502FDB6A395AB8E5756" : "GGLumberJac"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GGLumberJac",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GGLumberJac.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Otherplayer\/GGLumberJac.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9488B88C62894D50270A5502FDB6A395AB8E5756"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Otherplayer\/GGOtherplayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA8726A04386A5EDE7F93DB41C8079BB6086EFD8"
+    }
+  ]
+}

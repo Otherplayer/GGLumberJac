@@ -13,6 +13,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import <CocoaLumberjack/CocoaLumberjack.h>
+static const int ddLogLevel = DDLogLevelVerbose;// 定义日志级别
 
 /**
  *  @brief  在iTunes共享文档Logs目录下产出日志文件
